@@ -1,0 +1,19 @@
+.centered-vision {
+    font-family: "IBM Plex Mono", monospace;
+    width: 70%;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 50px auto 30px auto;
+    background-color: #eee;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+  }
+  
+  .centered-vision h1 {
+    text-align: center;
+    color: #242424;
+  }
+  
+  .centered-vision p {
+    color: #242424;
+  }
+  

@@ -1,0 +1,27 @@
+.centered-container {
+  font-family: "IBM Plex Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.menu-waffles {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    padding: 50px;
+    margin-top: -140px;
+    border-radius: 20px;
+    background-color: #eee;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.menu-waffles h1 {
+  color: #242424;
+}
+
+.menu-waffles ul li {
+  color: #242424;
+}

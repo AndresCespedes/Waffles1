@@ -1,6 +1,5 @@
 import { useState } from "react";
-import logo from "/public/assets/logo.jpeg";
-import Image from "next/image";
+import Link from "next/link"; // Importa Link
 import "../css/navbar.css";
 
 const NavBar = () => {
@@ -15,25 +14,41 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a href="/" className="navbar-logo">
+        {/* Usa el componente Link en lugar de <a> */}
+        <Link href="/" className="navbar-logo">
           Waffles Snack's
-        </a>
-        <Image width={100} height={100} src={logo} />
+        </Link>
         <ul className={`navbar-menu ${openMenu}`}>
+          {/* Usa el componente Link en lugar de <a> */}
           <li className="navbar-item">
-            <a href="#" className="navbar-link">
+            <a href="#info" className="navbar-link">
+              ¿Quienes somos?
+            </a>
+          </li>
+          <li className="navbar-item">
+            <Link href="#catalogo" className="navbar-link">
+              Catálogo de productos
+            </Link>
+          </li>
+          <li className="navbar-item">
+            <Link href="#menu" className="navbar-link">
               Menú
-            </a>
+            </Link>
           </li>
           <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              Acerca de
-            </a>
+            <Link href="#mision" className="navbar-link">
+              Misión
+            </Link>
           </li>
           <li className="navbar-item">
-            <a href="#about-me" className="navbar-link">
-              Contacto
-            </a>
+            <Link href="#vision" className="navbar-link">
+              Visión
+            </Link>
+          </li>
+          <li className="navbar-item">
+            <Link href="#propuesta" className="navbar-link">
+              Propuesta de Valor
+            </Link>
           </li>
         </ul>
         <div className={`navbar-toggle ${openMenu}`} onClick={handleToggle}>

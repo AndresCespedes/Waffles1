@@ -1,0 +1,18 @@
+.centered-propuesta {
+  font-family: "IBM Plex Mono", monospace;
+  width: 70%;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 50px auto 30px auto;
+  background-color: #eee;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.centered-propuesta h1 {
+  text-align: center;
+  color: #242424;
+}
+
+.centered-propuesta p {
+  color: #242424;
+}

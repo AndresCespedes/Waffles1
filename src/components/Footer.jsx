@@ -31,13 +31,13 @@ const Contact = () => {
               <h4>Sobre Nosotros</h4>
               <ul>
                 <li>
-                  <a href="">Misión</a>
+                  <a href="#mision">Misión</a>
                 </li>
                 <li>
-                  <a href="">Visión</a>
+                  <a href="#vision">Visión</a>
                 </li>
                 <li>
-                  <a href="">Idea de negocio</a>
+                  <a href="#propuesta">Propuesta de valor</a>
                 </li>
               </ul>
             </div>
